@@ -4,2197 +4,2780 @@
             "name": "Abentheuer",
             "riverName": "Traunbach",
             "riverAreaName": "Nahe",
-            "yLast": "25 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "39,43 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 143,
+                "HW50": 134,
+                "HW20": 121,
+                "HW2": 90,
+                "MW": 33
+            }
         },
         {
             "name": "Albisheim",
             "riverName": "Pfrimm",
             "riverAreaName": "Oberrhein",
-            "yLast": "26 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "113,19 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 245,
+                "HW50": 228,
+                "HW20": 204,
+                "HW2": 128,
+                "MW": 29
+            }
         },
         {
             "name": "Alsdorf",
             "riverName": "Heller",
             "riverAreaName": "Sieg",
-            "yLast": "46 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "182,88 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 293,
+                "HW50": 275,
+                "HW20": 246,
+                "HW2": 185,
+                "MW": 58
+            }
         },
         {
             "name": "Alsdorf-Oberecken",
             "riverName": "Nims",
             "riverAreaName": "Mosel",
-            "yLast": "46 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "263,9 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 419,
+                "HW50": 386,
+                "HW20": 340,
+                "HW2": 226,
+                "MW": 52
+            }
         },
         {
             "name": "Altenahr",
             "riverName": "Ahr",
             "riverAreaName": "Ahr",
-            "yLast": "69 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "747,97 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 650,
+                "HW50": 528,
+                "HW20": 378,
+                "HW2": 216,
+                "MW": 78
+            }
         },
         {
             "name": "Altenbamberg",
             "riverName": "Alsenz",
             "riverAreaName": "Nahe",
-            "yLast": "97 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "318,15 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 464,
+                "HW50": 434,
+                "HW20": 393,
+                "HW2": 264,
+                "MW": 96
+            }
         },
         {
             "name": "Althornbach 2",
             "riverName": "Hornbach",
             "riverAreaName": "Mosel",
-            "yLast": "105 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "425,47 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 526,
+                "HW50": 506,
+                "HW20": 478,
+                "HW2": 385,
+                "MW": 111
+            }
         },
         {
             "name": "Alzey",
             "riverName": "Selz",
             "riverAreaName": "Oberrhein",
-            "yLast": "18 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "27,39 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 155,
+                "HW50": 142,
+                "HW20": 122,
+                "HW2": 70,
+                "MW": 12
+            }
         },
         {
             "name": "Andernach",
             "riverName": "Rhein",
             "riverAreaName": "Mittelrhein",
-            "yLast": "232 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "139.549 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": 980,
+                "HW2": 672,
+                "MW": 258
+            }
         },
         {
             "name": "Argenschwang",
             "riverName": "Gräfenbach",
             "riverAreaName": "Nahe",
-            "yLast": "26 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "31 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 143,
+                "HW50": 130,
+                "HW20": 113,
+                "HW2": 79,
+                "MW": 30
+            }
         },
         {
             "name": "Bad Bodendorf",
             "riverName": "Ahr",
             "riverAreaName": "Ahr",
-            "yLast": "63 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "860,9 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 438,
+                "HW50": 383,
+                "HW20": 323,
+                "HW2": 212,
+                "MW": 85
+            }
         },
         {
             "name": "Bad Dürkheim, Sägmühle",
             "riverName": "Isenach",
             "riverAreaName": "Oberrhein",
-            "yLast": "52 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "67,97 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Bad Kreuznach",
             "riverName": "Nahe",
             "riverAreaName": "Nahe",
-            "yLast": "279 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "3.228 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 815,
+                "HW20": 740,
+                "HW2": 595,
+                "MW": 280
+            }
         },
         {
             "name": "Basel-Rheinhalle",
             "riverName": "Rhein",
             "riverAreaName": "Oberrhein",
-            "yLast": "493 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 995,
+                "HW20": 958,
+                "HW2": 820,
+                "MW": 585
+            }
         },
         {
             "name": "Beinheim",
             "riverName": "La Sauer",
             "riverAreaName": "Oberrhein",
-            "yLast": "167 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "541 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Bengel",
             "riverName": "Alf",
             "riverAreaName": "Mosel",
-            "yLast": "41 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "138,15 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Betzdorf",
             "riverName": "Sieg",
             "riverAreaName": "Sieg",
-            "yLast": "52 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "756,1 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 473,
+                "HW50": 447,
+                "HW20": 408,
+                "HW2": 300,
+                "MW": 78
+            }
         },
         {
             "name": "Bickenalbe",
             "riverName": "Bickenalb",
             "riverAreaName": "Mosel",
-            "yLast": "81 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "65,45 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Bingen",
             "riverName": "Rhein",
             "riverAreaName": "Mittelrhein",
-            "yLast": "151 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "99.090 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 650,
+                "HW20": 585,
+                "HW2": 436,
+                "MW": 211
+            }
         },
         {
             "name": "Bliesbruck",
             "riverName": "Blies",
             "riverAreaName": "Mosel",
-            "yLast": "24 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "1.815 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Bobenthal",
             "riverName": "Wieslauter",
             "riverAreaName": "Oberrhein",
-            "yLast": "96 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "253,43 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 244,
+                "HW50": 229,
+                "HW20": 210,
+                "HW2": 164,
+                "MW": 100
+            }
         },
         {
             "name": "Bollendorf 2",
             "riverName": "Sauer",
             "riverAreaName": "Mosel",
-            "yLast": "79 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "3.221,8 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 655,
+                "HW50": 617,
+                "HW20": 564,
+                "HW2": 404,
+                "MW": 103
+            }
         },
         {
             "name": "Bonn",
             "riverName": "Rhein",
             "riverAreaName": "Mittelrhein",
-            "yLast": "261 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "140.901 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": 960,
+                "HW2": 680,
+                "MW": 290
+            }
         },
         {
             "name": "Boos",
             "riverName": "Nahe",
             "riverAreaName": "Nahe",
-            "yLast": "63 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "2.830,08 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 569,
+                "HW50": 543,
+                "HW20": 503,
+                "HW2": 376,
+                "MW": 77
+            }
         },
         {
             "name": "Borod",
             "riverName": "Wied",
             "riverAreaName": "Wied",
-            "yLast": "27 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Bousseviller",
             "riverName": "Hornbach",
             "riverAreaName": "Mosel",
-            "yLast": "65 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "94,5 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Braubach",
             "riverName": "Rhein",
             "riverAreaName": "Mittelrhein",
-            "yLast": "198 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Brückrachdorf",
             "riverName": "Holzbach",
             "riverAreaName": "Wied",
-            "yLast": "18 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "71,82 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Burgen 2",
             "riverName": "Baybach",
             "riverAreaName": "Mosel",
-            "yLast": "23 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "105,73 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 180,
+                "HW50": 166,
+                "HW20": 145,
+                "HW2": 86,
+                "MW": 31
+            }
         },
         {
             "name": "Chasseur-Froid",
             "riverName": "Ill",
             "riverAreaName": "Oberrhein",
-            "yLast": "169 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Cochem",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "295 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "27.088 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": 947,
+                "HW2": 702,
+                "MW": 279
+            }
         },
         {
             "name": "Cochem 2",
             "riverName": "Endertbach",
             "riverAreaName": "Mosel",
-            "yLast": "29 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "59,35 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 128,
+                "HW50": 121,
+                "HW20": 112,
+                "HW2": 82,
+                "MW": 37
+            }
         },
         {
             "name": "Contwig",
             "riverName": "Schwarzbach",
             "riverAreaName": "Mosel",
-            "yLast": "130 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "528,6 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 406,
+                "HW50": 391,
+                "HW20": 366,
+                "HW2": 279,
+                "MW": 119
+            }
         },
         {
             "name": "Custines",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "132 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": null,
+                "HW2": 400,
+                "MW": null
+            }
         },
         {
             "name": "Damelevières",
             "riverName": "Meurthe",
             "riverAreaName": "Mosel",
-            "yLast": "49 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Dasbourg",
             "riverName": "Our",
             "riverAreaName": "Mosel",
-            "yLast": "58 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 370,
+                "HW50": 340,
+                "HW20": 303,
+                "HW2": 222,
+                "MW": 84
+            }
         },
         {
             "name": "Daun",
             "riverName": "Lieser",
             "riverAreaName": "Mosel",
-            "yLast": "24 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "43,09 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 293,
+                "HW50": 260,
+                "HW20": 210,
+                "HW2": 102,
+                "MW": 32
+            }
         },
         {
             "name": "Denn",
             "riverName": "Staffelerbach",
             "riverAreaName": "Ahr",
-            "yLast": "42 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "94,68 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 291,
+                "HW50": 258,
+                "HW20": 193,
+                "HW2": 119,
+                "MW": 54
+            }
         },
         {
             "name": "Densborn 2",
             "riverName": "Kyll",
             "riverAreaName": "Mosel",
-            "yLast": "55 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "472,1 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 383,
+                "HW50": 359,
+                "HW20": 327,
+                "HW2": 236,
+                "MW": 72
+            }
         },
         {
             "name": "Detzem UP",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "349 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "11.623 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Dhron-Talsperre",
             "riverName": "Kleine Dhron",
             "riverAreaName": "Mosel",
-            "yLast": "37 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "125,86 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 215,
+                "HW50": 196,
+                "HW20": 170,
+                "HW2": 112,
+                "MW": 40
+            }
         },
         {
             "name": "Diedendorf",
             "riverName": "Saar",
             "riverAreaName": "Mosel",
-            "yLast": "73 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "721 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Diekirch",
             "riverName": "Sauer",
             "riverAreaName": "Mosel",
-            "yLast": "148 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "2.149 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 597,
+                "HW50": 575,
+                "HW20": 544,
+                "HW2": 459,
+                "MW": 183
+            }
         },
         {
             "name": "Dierdorf-Behelfspegel",
             "riverName": "Holzbach",
             "riverAreaName": "Wied",
-            "yLast": "20 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "88,98 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Dietersheim",
             "riverName": "Nahe",
             "riverAreaName": "Nahe",
-            "yLast": "81 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "4.038,72 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 458,
+                "HW20": 412,
+                "HW2": 255,
+                "MW": 80
+            }
         },
         {
             "name": "Diez",
             "riverName": "Lahn",
             "riverAreaName": "Lahn",
-            "yLast": "114 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "4.905,7 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 790,
+                "HW20": 730,
+                "HW2": 560,
+                "MW": 147
+            }
         },
         {
             "name": "Dreis 2",
             "riverName": "Salm",
             "riverAreaName": "Mosel",
-            "yLast": "63 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "192,07 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 363,
+                "HW50": 340,
+                "HW20": 305,
+                "HW2": 221,
+                "MW": 74
+            }
         },
         {
             "name": "Drusenheim",
             "riverName": "Moder",
             "riverAreaName": "Oberrhein",
-            "yLast": "84 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "1.541 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Dudenhofen",
             "riverName": "Speyerbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "42 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "523,32 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Duisburg-Ruhrort",
             "riverName": "Rhein",
             "riverAreaName": "Niederrhein",
-            "yLast": "339 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "152.895 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": null,
+                "HW2": 835,
+                "MW": 394
+            }
         },
         {
             "name": "Duppach 2",
             "riverName": "Oosbach",
             "riverAreaName": "Mosel",
-            "yLast": "12 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "22,93 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 174,
+                "HW50": 155,
+                "HW20": 136,
+                "HW2": 91,
+                "MW": 26
+            }
         },
         {
             "name": "Düsseldorf",
             "riverName": "Rhein",
             "riverAreaName": "Niederrhein",
-            "yLast": "211 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "147.680 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": 965,
+                "HW2": 684,
+                "MW": 257
+            }
         },
         {
             "name": "Echtershausen",
             "riverName": "Prüm",
             "riverAreaName": "Mosel",
-            "yLast": "41 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "327,2 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 380,
+                "HW50": 321,
+                "HW20": 261,
+                "HW2": 166,
+                "MW": 66
+            }
         },
         {
             "name": "Eichelsbacher Mühle",
             "riverName": "Felsalbe",
             "riverAreaName": "Mosel",
-            "yLast": "26 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "28,11 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 211,
+                "HW50": 199,
+                "HW20": 183,
+                "HW2": 128,
+                "MW": 32
+            }
         },
         {
             "name": "Einöd",
             "riverName": "Schwarzbach",
             "riverAreaName": "Mosel",
-            "yLast": "139 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "1.152 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Eisenschmitt",
             "riverName": "Salm",
             "riverAreaName": "Mosel",
-            "yLast": "29 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "50,16 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 235,
+                "HW50": 217,
+                "HW20": 193,
+                "HW2": 134,
+                "MW": 38
+            }
         },
         {
             "name": "Eitorf",
             "riverName": "Sieg",
             "riverAreaName": "Sieg",
-            "yLast": "40 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "1.468 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 480,
+                "HW20": 460,
+                "HW2": 250,
+                "MW": 76
+            }
         },
         {
             "name": "Elztal",
             "riverName": "Elzbach",
             "riverAreaName": "Mosel",
-            "yLast": "37 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "219 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 239,
+                "HW50": 220,
+                "HW20": 194,
+                "HW2": 130,
+                "MW": 33
+            }
         },
         {
             "name": "Emmerich",
             "riverName": "Rhein",
             "riverAreaName": "Niederrhein",
-            "yLast": "169 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "159.555 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 965,
+                "HW20": 915,
+                "HW2": 669,
+                "MW": 239
+            }
         },
         {
             "name": "Enzweiler",
             "riverName": "Siesbach",
             "riverAreaName": "Nahe",
-            "yLast": "50 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "22,97 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 172,
+                "HW50": 168,
+                "HW20": 161,
+                "HW2": 136,
+                "MW": 53
+            }
         },
         {
             "name": "Epinal",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "17 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "1.220 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 301,
+                "HW20": 280,
+                "HW2": 201,
+                "MW": null
+            }
         },
         {
             "name": "Eschenau",
             "riverName": "Glan",
             "riverAreaName": "Glan",
-            "yLast": "70 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "598,31 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 351,
+                "HW50": 346,
+                "HW20": 337,
+                "HW2": 297,
+                "MW": 83
+            }
         },
         {
             "name": "Ettelbruck-Alzette",
             "riverName": "Alzette",
             "riverAreaName": "Mosel",
-            "yLast": "27 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 384,
+                "HW20": 348,
+                "HW2": 232,
+                "MW": 35
+            }
         },
         {
             "name": "Etzbach",
             "riverName": "Sieg",
             "riverAreaName": "Sieg",
-            "yLast": "98 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "1.246 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 451,
+                "HW20": 430,
+                "HW2": 354,
+                "MW": 160
+            }
         },
         {
             "name": "Fahren",
             "riverName": "Wipperbach",
             "riverAreaName": "Sieg",
-            "yLast": "21 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "14,39 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 115,
+                "HW50": 112,
+                "HW20": 108,
+                "HW2": 89,
+                "MW": 28
+            }
         },
         {
             "name": "Fastrau",
             "riverName": "Feller Bach",
             "riverAreaName": "Mosel",
-            "yLast": "18 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "47,5 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Flomersheim",
             "riverName": "Isenach",
             "riverAreaName": "Oberrhein",
-            "yLast": "76 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "278,78 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 223,
+                "HW50": 216,
+                "HW20": 204,
+                "HW2": 162,
+                "MW": 86
+            }
         },
         {
             "name": "Frauenberg",
             "riverName": "Blies",
             "riverAreaName": "Mosel",
-            "yLast": "129 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Fremersdorf",
             "riverName": "Saar",
             "riverAreaName": "Mosel",
-            "yLast": "215 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "6.983 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 740,
+                "HW20": 680,
+                "HW2": 458,
+                "MW": 216
+            }
         },
         {
             "name": "Friedrichsthal",
             "riverName": "Wied",
             "riverAreaName": "Wied",
-            "yLast": "50 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "680,45 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 322,
+                "HW50": 313,
+                "HW20": 299,
+                "HW2": 246,
+                "MW": 68
+            }
         },
         {
             "name": "Gaugrehweiler",
             "riverName": "Appelbach",
             "riverAreaName": "Nahe",
-            "yLast": "33 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "41,41 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 242,
+                "HW50": 216,
+                "HW20": 186,
+                "HW2": 107,
+                "MW": 36
+            }
         },
         {
             "name": "Gemünd Irsen",
             "riverName": "Irsen",
             "riverAreaName": "Mosel",
-            "yLast": "36 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "124,5 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 233,
+                "HW50": 213,
+                "HW20": 185,
+                "HW2": 125,
+                "MW": 47
+            }
         },
         {
             "name": "Gemünd Our",
             "riverName": "Our",
             "riverAreaName": "Mosel",
-            "yLast": "116 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "613,4 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 502,
+                "HW50": 453,
+                "HW20": 402,
+                "HW2": 302,
+                "MW": 132
+            }
         },
         {
             "name": "Gensingen",
             "riverName": "Wiesbach",
             "riverAreaName": "Nahe",
-            "yLast": "53 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "195,36 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 199,
+                "HW50": 186,
+                "HW20": 160,
+                "HW2": 107,
+                "MW": 50
+            }
         },
         {
             "name": "Gerach 2",
             "riverName": "Fischbach",
             "riverAreaName": "Nahe",
-            "yLast": "32 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "62,77 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 198,
+                "HW20": 159,
+                "HW2": 111,
+                "MW": 37
+            }
         },
         {
             "name": "Germersheim",
             "riverName": "Queich",
             "riverAreaName": "Oberrhein",
-            "yLast": "91 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "267,53 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Gerolstein",
             "riverName": "Kyll",
             "riverAreaName": "Mosel",
-            "yLast": "20 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "300,9 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 363,
+                "HW50": 340,
+                "HW20": 307,
+                "HW2": 198,
+                "MW": 32
+            }
         },
         {
             "name": "Giesdorf",
             "riverName": "Nims",
             "riverAreaName": "Mosel",
-            "yLast": "24 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "18 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 162,
+                "HW50": 154,
+                "HW20": 145,
+                "HW2": 126,
+                "MW": 37
+            }
         },
         {
             "name": "Grevenmacher",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "274 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 939,
+                "HW20": null,
+                "HW2": null,
+                "MW": null
+            }
         },
         {
             "name": "Großlittgen",
             "riverName": "Salm",
             "riverAreaName": "Mosel",
-            "yLast": "26 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "64,5 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Hallschlag",
             "riverName": "Taubkyll",
             "riverAreaName": "Mosel",
-            "yLast": "21 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "24,7 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 191,
+                "HW50": 176,
+                "HW20": 158,
+                "HW2": 115,
+                "MW": 31
+            }
         },
         {
             "name": "Hardenburg",
             "riverName": "Isenach",
             "riverAreaName": "Oberrhein",
-            "yLast": "21 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "53,4 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Hasborner Mühle",
             "riverName": "Sammetbach",
             "riverAreaName": "Mosel",
-            "yLast": "21 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "22,7 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 107,
+                "HW50": 102,
+                "HW20": 94,
+                "HW2": 74,
+                "MW": 34
+            }
         },
         {
             "name": "Hattingen",
             "riverName": "Ruhr",
             "riverAreaName": "Niederrhein",
-            "yLast": "124 cm",
-            "xLast": "16.03.2025 03:00 Uhr",
             "catchmentArea": "4.117,94 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Heddesheim",
             "riverName": "Guldenbach",
             "riverAreaName": "Nahe",
-            "yLast": "19 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "164,61 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 227,
+                "HW50": 207,
+                "HW20": 180,
+                "HW2": 135,
+                "MW": 28
+            }
         },
         {
             "name": "Heimbach Bhf.",
             "riverName": "Nahe",
             "riverAreaName": "Nahe",
-            "yLast": "77 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "318,34 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 355,
+                "HW50": 342,
+                "HW20": 324,
+                "HW2": 269,
+                "MW": 103
+            }
         },
         {
             "name": "Heimborn",
             "riverName": "Nister",
             "riverAreaName": "Sieg",
-            "yLast": "28 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "218,5 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 263,
+                "HW50": 254,
+                "HW20": 240,
+                "HW2": 190,
+                "MW": 46
+            }
         },
         {
             "name": "Hentern",
             "riverName": "Ruwer",
             "riverAreaName": "Mosel",
-            "yLast": "33 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "102,3 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 203,
+                "HW50": 188,
+                "HW20": 170,
+                "HW2": 125,
+                "MW": 42
+            }
         },
         {
             "name": "Herxheim",
             "riverName": "Klingbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "30 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "101,67 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 152,
+                "HW50": 146,
+                "HW20": 136,
+                "HW2": 105,
+                "MW": 28
+            }
         },
         {
             "name": "Hoffnungsthal",
             "riverName": "Sülz",
             "riverAreaName": "Sieg",
-            "yLast": "49 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "219 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Holtzheim",
             "riverName": "Bruche",
             "riverAreaName": "Oberrhein",
-            "yLast": "81 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "688 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Hördt",
             "riverName": "Klingbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "60 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "129,44 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Hornbach",
             "riverName": "Schwalb",
             "riverAreaName": "Mosel",
-            "yLast": "74 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "111,41 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 391,
+                "HW50": 363,
+                "HW20": 324,
+                "HW2": 232,
+                "MW": 70
+            }
         },
         {
             "name": "Idar",
             "riverName": "Idarbach",
             "riverAreaName": "Nahe",
-            "yLast": "37 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "93,61 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 212,
+                "HW50": 196,
+                "HW20": 174,
+                "HW2": 118,
+                "MW": 40
+            }
         },
         {
             "name": "Imsweiler",
             "riverName": "Alsenz",
             "riverAreaName": "Nahe",
-            "yLast": "65 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "171,18 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 377,
+                "HW50": 363,
+                "HW20": 342,
+                "HW2": 259,
+                "MW": 67
+            }
         },
         {
             "name": "Isenburg",
             "riverName": "Saynbach",
             "riverAreaName": "Wied",
-            "yLast": "53 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "155,3 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 228,
+                "HW50": 211,
+                "HW20": 190,
+                "HW2": 139,
+                "MW": 62
+            }
         },
         {
             "name": "Jünkerath",
             "riverName": "Kyll",
             "riverAreaName": "Mosel",
-            "yLast": "26 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "175,6 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 343,
+                "HW50": 310,
+                "HW20": 265,
+                "HW2": 177,
+                "MW": 46
+            }
         },
         {
             "name": "Kalkofen_Neu",
             "riverName": "Lahn",
             "riverAreaName": "Lahn",
-            "yLast": "204 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "5.304 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 890,
+                "HW20": 830,
+                "HW2": 650,
+                "MW": 237
+            }
         },
         {
             "name": "Kallenfels",
             "riverName": "Hahnenbach",
             "riverAreaName": "Nahe",
-            "yLast": "26 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "251,32 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 280,
+                "HW50": 258,
+                "HW20": 229,
+                "HW2": 153,
+                "MW": 34
+            }
         },
         {
             "name": "Kasel 3",
             "riverName": "Ruwer",
             "riverAreaName": "Mosel",
-            "yLast": "46 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "222,3 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 362,
+                "HW50": 323,
+                "HW20": 273,
+                "HW2": 174,
+                "MW": 55
+            }
         },
         {
             "name": "Kaub",
             "riverName": "Rhein",
             "riverAreaName": "Mittelrhein",
-            "yLast": "148 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "103.488 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 815,
+                "HW20": 760,
+                "HW2": 544,
+                "MW": 208
+            }
         },
         {
             "name": "Kautenmühle",
             "riverName": "Eisenbach",
             "riverAreaName": "Lahn",
-            "yLast": "42 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "37,16 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 148,
+                "HW50": 139,
+                "HW20": 127,
+                "HW2": 96,
+                "MW": 44
+            }
         },
         {
             "name": "Kehl-Kronenhof",
             "riverName": "Rhein",
             "riverAreaName": "Oberrhein",
-            "yLast": "202 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "39.330 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 582,
+                "HW20": null,
+                "HW2": 440,
+                "MW": 239
+            }
         },
         {
             "name": "Kellenbach 2",
             "riverName": "Simmerbach",
             "riverAreaName": "Nahe",
-            "yLast": "75 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "362,05 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 309,
+                "HW50": 295,
+                "HW20": 273,
+                "HW2": 198,
+                "MW": 84
+            }
         },
         {
             "name": "Kirmutscheid",
             "riverName": "Trierbach",
             "riverAreaName": "Ahr",
-            "yLast": "37 cm",
-            "xLast": "16.03.2025 03:15 Uhr",
             "catchmentArea": "88,42 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 274,
+                "HW50": 257,
+                "HW20": 231,
+                "HW2": 157,
+                "MW": 63
+            }
         },
         {
             "name": "Kleinniedesheim",
             "riverName": "Eckbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "50 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "199,69 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Kloster Arnstein",
             "riverName": "Dörsbach",
             "riverAreaName": "Lahn",
-            "yLast": "38 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "113,33 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 231,
+                "HW50": 202,
+                "HW20": 166,
+                "HW2": 96,
+                "MW": 40
+            }
         },
         {
             "name": "Kloster Ehrenstein",
             "riverName": "Mehrbach",
             "riverAreaName": "Wied",
-            "yLast": "30 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "65,72 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 242,
+                "HW50": 219,
+                "HW20": 190,
+                "HW2": 126,
+                "MW": 33
+            }
         },
         {
             "name": "Kloster Engelport",
             "riverName": "Flaumbach",
             "riverAreaName": "Mosel",
-            "yLast": "102 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "112,74 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 279,
+                "HW50": 265,
+                "HW20": 227,
+                "HW2": 169,
+                "MW": 109
+            }
         },
         {
             "name": "Koblenz",
             "riverName": "Rhein",
             "riverAreaName": "Mittelrhein",
-            "yLast": "187 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "109.806 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 975,
+                "HW20": 880,
+                "HW2": 588,
+                "MW": 214
+            }
         },
         {
             "name": "Kogenheim",
             "riverName": "Ill",
             "riverAreaName": "Oberrhein",
-            "yLast": "96 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "3.056 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Köln",
             "riverName": "Rhein",
             "riverAreaName": "Mittelrhein",
-            "yLast": "260 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "144.232 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": null,
+                "HW2": 725,
+                "MW": 297
+            }
         },
         {
             "name": "Kordel",
             "riverName": "Kyll",
             "riverAreaName": "Mosel",
-            "yLast": "75 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "818,51 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 521,
+                "HW50": 497,
+                "HW20": 464,
+                "HW2": 365,
+                "MW": 102
+            }
         },
         {
             "name": "Kreuzberg",
             "riverName": "Sahrbach",
             "riverAreaName": "Ahr",
-            "yLast": "26 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "45,56 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 205,
+                "HW50": 188,
+                "HW20": 164,
+                "HW2": 94,
+                "MW": 35
+            }
         },
         {
             "name": "Kreuztal",
             "riverName": "Ferndorfbach",
             "riverAreaName": "Sieg",
-            "yLast": "12 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "63,4 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Kronenburg UP",
             "riverName": "Kyll",
             "riverAreaName": "Mosel",
-            "yLast": "253 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "80 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Kronenburger See",
             "riverName": "Kyll",
             "riverAreaName": "Mosel",
-            "yLast": "480.33 m ü. NHN",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Kronweiler",
             "riverName": "Schwollbach",
             "riverAreaName": "Nahe",
-            "yLast": "27 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "64,59 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 225,
+                "HW50": 216,
+                "HW20": 204,
+                "HW2": 142,
+                "MW": 36
+            }
         },
         {
             "name": "Leun",
             "riverName": "Lahn",
             "riverAreaName": "Lahn",
-            "yLast": "187 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "3.571 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 650,
+                "HW20": 635,
+                "HW2": 573,
+                "MW": 225
+            }
         },
         {
             "name": "Lohmar",
             "riverName": "Agger",
             "riverAreaName": "Sieg",
-            "yLast": "39 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "785 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Lohnweiler",
             "riverName": "Lauter",
             "riverAreaName": "Glan",
-            "yLast": "58 cm",
-            "xLast": "16.03.2025 03:45 Uhr",
             "catchmentArea": "271,32 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 269,
+                "HW20": 242,
+                "HW2": 172,
+                "MW": 59
+            }
         },
         {
             "name": "Löllbach",
             "riverName": "Jeckenbach",
             "riverAreaName": "Glan",
-            "yLast": "33 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "45,17 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 246,
+                "HW50": 204,
+                "HW20": 164,
+                "HW2": 108,
+                "MW": 31
+            }
         },
         {
             "name": "Lützelauer Mühle",
             "riverName": "Kleine Nister",
             "riverAreaName": "Sieg",
-            "yLast": "24 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "59,19 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 126,
+                "HW50": 123,
+                "HW20": 118,
+                "HW2": 98,
+                "MW": 33
+            }
         },
         {
             "name": "Mainz",
             "riverName": "Rhein",
             "riverAreaName": "Oberrhein",
-            "yLast": "232 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "98.206 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 769,
+                "HW20": 728,
+                "HW2": 547,
+                "MW": 288
+            }
         },
         {
             "name": "Mannheim",
             "riverName": "Rhein",
             "riverAreaName": "Oberrhein",
-            "yLast": "208 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "54.017 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Marburg",
             "riverName": "Lahn",
             "riverAreaName": "Lahn",
-            "yLast": "175 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "1.666,2 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Martinstein 2",
             "riverName": "Nahe",
             "riverAreaName": "Nahe",
-            "yLast": "132 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "1.468 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 570,
+                "HW50": 546,
+                "HW20": 510,
+                "HW2": 396,
+                "MW": 146
+            }
         },
         {
             "name": "Maxau",
             "riverName": "Rhein",
             "riverAreaName": "Oberrhein",
-            "yLast": "410 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "50.196 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 933,
+                "HW50": 909,
+                "HW20": 881,
+                "HW2": 780,
+                "MW": 523
+            }
         },
         {
             "name": "Meisburg-Deudesfeld",
             "riverName": "Salm",
             "riverAreaName": "Mosel",
-            "yLast": "24 cm",
-            "xLast": "16.03.2025 00:00 Uhr",
             "catchmentArea": "20,5 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Menden1",
             "riverName": "Sieg",
             "riverAreaName": "Sieg",
-            "yLast": "40 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "2.825 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Mengerschied B2",
             "riverName": "Lametbach",
             "riverAreaName": "Nahe",
-            "yLast": "8 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Mersch",
             "riverName": "Alzette",
             "riverAreaName": "Mosel",
-            "yLast": "89 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 574,
+                "HW20": 537,
+                "HW2": 400,
+                "MW": 107
+            }
         },
         {
             "name": "Miehlen 2",
             "riverName": "Mühlbach",
             "riverAreaName": "Lahn",
-            "yLast": "34 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "84,8 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 313,
+                "HW50": 278,
+                "HW20": 234,
+                "HW2": 148,
+                "MW": 44
+            }
         },
         {
             "name": "Minfeld",
             "riverName": "Dierbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "14 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "24,13 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 137,
+                "HW50": 127,
+                "HW20": 111,
+                "HW2": 73,
+                "MW": 18
+            }
         },
         {
             "name": "Müllenborn",
             "riverName": "Oosbach",
             "riverAreaName": "Mosel",
-            "yLast": "24 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "62,59 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 318,
+                "HW50": 282,
+                "HW20": 236,
+                "HW2": 137,
+                "MW": 31
+            }
         },
         {
             "name": "Müsch 2",
             "riverName": "Ahr",
             "riverAreaName": "Ahr",
-            "yLast": "53 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "352 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 449,
+                "HW50": 379,
+                "HW20": 311,
+                "HW2": 184,
+                "MW": 37
+            }
         },
         {
             "name": "Nanzdietschweiler",
             "riverName": "Glan",
             "riverAreaName": "Glan",
-            "yLast": "79 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "200,94 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 342,
+                "HW50": 326,
+                "HW20": 304,
+                "HW2": 229,
+                "MW": 81
+            }
         },
         {
             "name": "Nettegut",
             "riverName": "Nette",
             "riverAreaName": "Mittelrhein",
-            "yLast": "50 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "368,33 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 299,
+                "HW50": 280,
+                "HW20": 244,
+                "HW2": 150,
+                "MW": 58
+            }
         },
         {
             "name": "Neubrück",
             "riverName": "Erft",
             "riverAreaName": "Niederrhein",
-            "yLast": "70 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "4.783 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Neuhof",
             "riverName": "Ahr",
             "riverAreaName": "Ahr",
-            "yLast": "21 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "124 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Neustadt Weinstraße",
             "riverName": "Speyerbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "33 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "311,77 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 153,
+                "HW50": 131,
+                "HW20": 117,
+                "HW2": 81,
+                "MW": 35
+            }
         },
         {
             "name": "Neuwied Stadt",
             "riverName": "Rhein",
             "riverAreaName": "Mittelrhein",
-            "yLast": "194 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": 956,
+                "HW2": 716,
+                "MW": 254
+            }
         },
         {
             "name": "Niederadenau",
             "riverName": "Adenauerbach",
             "riverAreaName": "Ahr",
-            "yLast": "16 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "57,03 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Niederelbert",
             "riverName": "Niederelberterbach",
             "riverAreaName": "Lahn",
-            "yLast": "16 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "16,33 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 108,
+                "HW50": 100,
+                "HW20": 90,
+                "HW2": 63,
+                "MW": 24
+            }
         },
         {
             "name": "Niedermohr",
             "riverName": "Mohrbach",
             "riverAreaName": "Glan",
-            "yLast": "34 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "100,76 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 208,
+                "HW50": 202,
+                "HW20": 191,
+                "HW2": 141,
+                "MW": 36
+            }
         },
         {
             "name": "Niederroedern",
             "riverName": "Seltzbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "45 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "202 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Niederschelden",
             "riverName": "Sieg",
             "riverAreaName": "Sieg",
-            "yLast": "70 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "431 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 420,
+                "HW20": 395,
+                "HW2": 300,
+                "MW": 104
+            }
         },
         {
             "name": "Nierstein 2",
             "riverName": "Flügelsbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "27 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "37,2 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Nierstein-Oppenheim",
             "riverName": "Rhein",
             "riverAreaName": "Oberrhein",
-            "yLast": "189 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Nohfelden",
             "riverName": "Nahe",
             "riverAreaName": "Nahe",
-            "yLast": "55 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "79,5 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 301,
+                "HW50": 259,
+                "HW20": 241,
+                "HW2": 197,
+                "MW": 65
+            }
         },
         {
             "name": "Oberauerbach",
             "riverName": "Auerbach",
             "riverAreaName": "Mosel",
-            "yLast": "41 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "73,84 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 293,
+                "HW50": 277,
+                "HW20": 254,
+                "HW2": 192,
+                "MW": 44
+            }
         },
         {
             "name": "Oberbieber",
             "riverName": "Aubach",
             "riverAreaName": "Wied",
-            "yLast": "34 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "29,29 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 85,
+                "HW50": 82,
+                "HW20": 78,
+                "HW2": 64,
+                "MW": 39
+            }
         },
         {
             "name": "Oberingelheim",
             "riverName": "Selz",
             "riverAreaName": "Oberrhein",
-            "yLast": "48 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "365,35 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 186,
+                "HW50": 148,
+                "HW20": 114,
+                "HW2": 83,
+                "MW": 39
+            }
         },
         {
             "name": "Oberkail",
             "riverName": "Lohsalm",
             "riverAreaName": "Mosel",
-            "yLast": "16 cm",
-            "xLast": "16.03.2025 01:30 Uhr",
             "catchmentArea": "13,04 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Obermoschel",
             "riverName": "Moschel",
             "riverAreaName": "Nahe",
-            "yLast": "26 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "61,44 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 269,
+                "HW50": 236,
+                "HW20": 196,
+                "HW2": 112,
+                "MW": 26
+            }
         },
         {
             "name": "Oberstein 2",
             "riverName": "Nahe",
             "riverAreaName": "Nahe",
-            "yLast": "40 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "556,99 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 391,
+                "HW50": 366,
+                "HW20": 333,
+                "HW2": 239,
+                "MW": 51
+            }
         },
         {
             "name": "Oberwinter",
             "riverName": "Rhein",
             "riverAreaName": "Mittelrhein",
-            "yLast": "196 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 970,
+                "HW20": 880,
+                "HW2": 650,
+                "MW": 246
+            }
         },
         {
             "name": "Odenbach",
             "riverName": "Glan",
             "riverAreaName": "Glan",
-            "yLast": "138 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "1.088,17 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 549,
+                "HW50": 535,
+                "HW20": 516,
+                "HW2": 439,
+                "MW": 150
+            }
         },
         {
             "name": "Odenbach Steinbruch 2",
             "riverName": "Odenbach",
             "riverAreaName": "Glan",
-            "yLast": "107 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "84,62 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 305,
+                "HW50": 297,
+                "HW20": 285,
+                "HW2": 237,
+                "MW": 114
+            }
         },
         {
             "name": "Oestrich",
             "riverName": "Rhein",
             "riverAreaName": "Oberrhein",
-            "yLast": "138 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 601,
+                "HW20": 566,
+                "HW2": 412,
+                "MW": 186
+            }
         },
         {
             "name": "Opladen",
             "riverName": "Wupper",
             "riverAreaName": "Niederrhein",
-            "yLast": "52 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "606 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Overath",
             "riverName": "Agger",
             "riverAreaName": "Sieg",
-            "yLast": "62 cm",
-            "xLast": "16.03.2025 03:45 Uhr",
             "catchmentArea": "454 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Papiermühle",
             "riverName": "Dhron",
             "riverAreaName": "Mosel",
-            "yLast": "41 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "169,61 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 252,
+                "HW50": 221,
+                "HW20": 187,
+                "HW2": 128,
+                "MW": 49
+            }
         },
         {
             "name": "Peltzerhaus",
             "riverName": "Ueßbach",
             "riverAreaName": "Mosel",
-            "yLast": "36 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "175,95 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 253,
+                "HW50": 245,
+                "HW20": 232,
+                "HW2": 173,
+                "MW": 53
+            }
         },
         {
             "name": "Perl",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "266 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "11.522 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 845,
+                "HW20": 780,
+                "HW2": 633,
+                "MW": 253
+            }
         },
         {
             "name": "Pfeddersheim",
             "riverName": "Pfrimm",
             "riverAreaName": "Oberrhein",
-            "yLast": "36 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "225 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Planig",
             "riverName": "Appelbach",
             "riverAreaName": "Nahe",
-            "yLast": "27 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "170,96 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 194,
+                "HW50": 185,
+                "HW20": 167,
+                "HW2": 95,
+                "MW": 25
+            }
         },
         {
             "name": "Platten 2",
             "riverName": "Lieser",
             "riverAreaName": "Mosel",
-            "yLast": "45 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "377,83 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 352,
+                "HW50": 335,
+                "HW20": 312,
+                "HW2": 248,
+                "MW": 64
+            }
         },
         {
             "name": "Plein",
             "riverName": "Lieser",
             "riverAreaName": "Mosel",
-            "yLast": "49 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "274,92 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 356,
+                "HW50": 332,
+                "HW20": 299,
+                "HW2": 207,
+                "MW": 60
+            }
         },
         {
             "name": "Plittersdorf",
             "riverName": "Rhein",
             "riverAreaName": "Oberrhein",
-            "yLast": "328 cm",
-            "xLast": "15.03.2025 17:00 Uhr",
             "catchmentArea": "48.276 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 768,
+                "HW20": 758,
+                "HW2": 687,
+                "MW": 411
+            }
         },
         {
             "name": "Prüm 2",
             "riverName": "Prüm",
             "riverAreaName": "Mosel",
-            "yLast": "27 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "53,2 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 248,
+                "HW50": 210,
+                "HW20": 169,
+                "HW2": 105,
+                "MW": 36
+            }
         },
         {
             "name": "Prümzurlay",
             "riverName": "Prüm",
             "riverAreaName": "Mosel",
-            "yLast": "41 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "573,7 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 663,
+                "HW50": 574,
+                "HW20": 497,
+                "HW2": 327,
+                "MW": 58
+            }
         },
         {
             "name": "Rammelsbach 2",
             "riverName": "Kuselbach",
             "riverAreaName": "Glan",
-            "yLast": "33 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "78,56 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 292,
+                "HW50": 283,
+                "HW20": 267,
+                "HW2": 196,
+                "MW": 47
+            }
         },
         {
             "name": "Raunheim",
             "riverName": "Main",
             "riverAreaName": "Mittelrhein",
-            "yLast": "128 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 590,
+                "HW20": 530,
+                "HW2": 374,
+                "MW": 145
+            }
         },
         {
             "name": "Rees",
             "riverName": "Rhein",
             "riverAreaName": "Niederrhein",
-            "yLast": "224 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "159.300 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": 985,
+                "HW2": 747,
+                "MW": 293
+            }
         },
         {
             "name": "Remich",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "362 cm",
-            "xLast": "16.03.2025 03:45 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 818,
+                "HW20": null,
+                "HW2": null,
+                "MW": null
+            }
         },
         {
             "name": "Rheindiebach",
             "riverName": "Gailsbach",
             "riverAreaName": "Mittelrhein",
-            "yLast": "11 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "10,31 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 116,
+                "HW50": 102,
+                "HW20": 87,
+                "HW2": 59,
+                "MW": 18
+            }
         },
         {
             "name": "Rheingönheim",
             "riverName": "Rehbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "70 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "149,87 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Rheinzabern",
             "riverName": "Erlenbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "37 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "96,79 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 180,
+                "HW50": 163,
+                "HW20": 142,
+                "HW2": 100,
+                "MW": 33
+            }
         },
         {
             "name": "Rheinzabern Süd",
             "riverName": "Otterbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "53 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "103,17 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Rockenau SKA",
             "riverName": "Neckar",
             "riverAreaName": "Oberrhein",
-            "yLast": "222 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 953,
+                "HW20": 868,
+                "HW2": 609,
+                "MW": 244
+            }
         },
         {
             "name": "Rodenbach 2",
             "riverName": "Bruchbach",
             "riverAreaName": "Glan",
-            "yLast": "17 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "19,44 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 120,
+                "HW20": 116,
+                "HW2": 93,
+                "MW": 27
+            }
         },
         {
             "name": "Rosport",
             "riverName": "Sauer",
             "riverAreaName": "Mosel",
-            "yLast": "103 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "4.231,8 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 854,
+                "HW50": 806,
+                "HW20": 739,
+                "HW2": 548,
+                "MW": 153
+            }
         },
         {
             "name": "Ruwer",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "270 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "11.623 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Saarburg 2",
             "riverName": "Leuk",
             "riverAreaName": "Mosel",
-            "yLast": "34 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "76 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 315,
+                "HW50": 273,
+                "HW20": 225,
+                "HW2": 138,
+                "MW": 37
+            }
         },
         {
             "name": "Saint-Die",
             "riverName": "Meurthe",
             "riverAreaName": "Mosel",
-            "yLast": "42 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Salmbacher Passage",
             "riverName": "Wieslauter",
             "riverAreaName": "Oberrhein",
-            "yLast": "36 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "345,2 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 205,
+                "HW50": 200,
+                "HW20": 192,
+                "HW2": 150,
+                "MW": 32
+            }
         },
         {
             "name": "Sankt Arnual",
             "riverName": "Saar",
             "riverAreaName": "Mosel",
-            "yLast": "202 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "3.944,7 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": 727,
+                "HW2": 402,
+                "MW": 206
+            }
         },
         {
             "name": "Sankt Goar",
             "riverName": "Rhein",
             "riverAreaName": "Mittelrhein",
-            "yLast": "253 cm",
-            "xLast": "15.03.2025 05:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Sarralbe",
             "riverName": "Saar",
             "riverAreaName": "Mosel",
-            "yLast": "148 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "1.303 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Sarrebourg",
             "riverName": "Saar",
             "riverAreaName": "Mosel",
-            "yLast": "146 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Saxler Mühle",
             "riverName": "Alf",
             "riverAreaName": "Mosel",
-            "yLast": "27 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "39,85 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 211,
+                "HW50": 198,
+                "HW20": 180,
+                "HW2": 132,
+                "MW": 36
+            }
         },
         {
             "name": "Schermbeck 1",
             "riverName": "Lippe",
             "riverAreaName": "Niederrhein",
-            "yLast": "153 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "4.783 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Schleifmühle",
             "riverName": "Ellerbach",
             "riverAreaName": "Nahe",
-            "yLast": "52 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "181,8 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 265,
+                "HW20": 243,
+                "HW2": 161,
+                "MW": 48
+            }
         },
         {
             "name": "Schulmühle",
             "riverName": "Mühlbach",
             "riverAreaName": "Lahn",
-            "yLast": "58 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "145,92 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 225,
+                "HW50": 205,
+                "HW20": 181,
+                "HW2": 130,
+                "MW": 64
+            }
         },
         {
             "name": "Schweighouse",
             "riverName": "Moder",
             "riverAreaName": "Oberrhein",
-            "yLast": "44 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "622 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Seelbach",
             "riverName": "Wied",
             "riverAreaName": "Wied",
-            "yLast": "46 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "193,39 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 317,
+                "HW50": 297,
+                "HW20": 270,
+                "HW2": 199,
+                "MW": 59
+            }
         },
         {
             "name": "Seffern",
             "riverName": "Nims",
             "riverAreaName": "Mosel",
-            "yLast": "30 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "136,2 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 348,
+                "HW50": 300,
+                "HW20": 232,
+                "HW2": 125,
+                "MW": 33
+            }
         },
         {
             "name": "Seifen",
             "riverName": "Holzbach",
             "riverAreaName": "Wied",
-            "yLast": "42 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "175,98 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 240,
+                "HW50": 231,
+                "HW20": 216,
+                "HW2": 165,
+                "MW": 54
+            }
         },
         {
             "name": "Serrig UP",
             "riverName": "Saar",
             "riverAreaName": "Mosel",
-            "yLast": "217 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Siebeldingen",
             "riverName": "Queich",
             "riverAreaName": "Oberrhein",
-            "yLast": "45 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "196,29 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 272,
+                "HW50": 251,
+                "HW20": 223,
+                "HW2": 150,
+                "MW": 51
+            }
         },
         {
             "name": "Sinspelt",
             "riverName": "Enz",
             "riverAreaName": "Mosel",
-            "yLast": "18 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "101,46 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 250,
+                "HW50": 225,
+                "HW20": 196,
+                "HW2": 127,
+                "MW": 29
+            }
         },
         {
             "name": "Speyer",
             "riverName": "Rhein",
             "riverAreaName": "Oberrhein",
-            "yLast": "279 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "53.131 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 919,
+                "HW20": 881,
+                "HW2": 727,
+                "MW": 381
+            }
         },
         {
             "name": "Speyer Nord",
             "riverName": "Woogbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "62 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "61,81 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 228,
+                "HW50": 217,
+                "HW20": 200,
+                "HW2": 149,
+                "MW": 61
+            }
         },
         {
             "name": "Sprink",
             "riverName": "Alf",
             "riverAreaName": "Mosel",
-            "yLast": "52 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "56,6 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Stadecken",
             "riverName": "Selz",
             "riverAreaName": "Oberrhein",
-            "yLast": "54 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "294,81 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 256,
+                "HW50": 223,
+                "HW20": 189,
+                "HW2": 143,
+                "MW": 46
+            }
         },
         {
             "name": "Stadtbredimus",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "285 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "11.623 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 975,
+                "HW20": 872,
+                "HW2": 693,
+                "MW": 255
+            }
         },
         {
             "name": "Stausee Bitburg",
             "riverName": "Prüm",
             "riverAreaName": "Mosel",
-            "yLast": "253.91 m ü. NHN",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Stausee Ohmbach",
             "riverName": "Ohmbach",
             "riverAreaName": "Glan",
-            "yLast": "34 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "34,5 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 231,
+                "HW50": 221,
+                "HW20": 209,
+                "HW2": 178,
+                "MW": 62
+            }
         },
         {
             "name": "Steinalben",
             "riverName": "Queidersbach",
             "riverAreaName": "Mosel",
-            "yLast": "21 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "32,94 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 116,
+                "HW20": 108,
+                "HW2": 81,
+                "MW": 24
+            }
         },
         {
             "name": "Steinbach",
             "riverName": "Simmerbach",
             "riverAreaName": "Nahe",
-            "yLast": "44 cm",
-            "xLast": "13.03.2025 08:00 Uhr",
             "catchmentArea": "46,21 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 161,
+                "HW50": 153,
+                "HW20": 142,
+                "HW2": 107,
+                "MW": 26
+            }
         },
         {
             "name": "Steinebrück",
             "riverName": "Kyll",
             "riverAreaName": "Mosel",
-            "yLast": "26 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "47,6 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 191,
+                "HW50": 181,
+                "HW20": 171,
+                "HW2": 132,
+                "MW": 39
+            }
         },
         {
             "name": "Sulzhof",
             "riverName": "Sulzbach",
             "riverAreaName": "Glan",
-            "yLast": "11 cm",
-            "xLast": "15.03.2025 17:45 Uhr",
             "catchmentArea": "8,5 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 87,
+                "HW50": 80,
+                "HW20": 71,
+                "HW2": 41,
+                "MW": 11
+            }
         },
         {
             "name": "Thaleischweiler 2",
             "riverName": "Schwarzbach",
             "riverAreaName": "Mosel",
-            "yLast": "61 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "377,41 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 310,
+                "HW50": 290,
+                "HW20": 264,
+                "HW2": 194,
+                "MW": 60
+            }
         },
         {
             "name": "Thörlingen",
             "riverName": "Baybach",
             "riverAreaName": "Mosel",
-            "yLast": "19 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "29,12 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 136,
+                "HW50": 123,
+                "HW20": 113,
+                "HW2": 71,
+                "MW": 26
+            }
         },
         {
             "name": "Toul",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "96 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "3.397 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 537,
+                "HW20": 503,
+                "HW2": 398,
+                "MW": null
+            }
         },
         {
             "name": "Traben-Trarbach",
             "riverName": "Kautenbach",
             "riverAreaName": "Mosel",
-            "yLast": "31 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "51,12 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 160,
+                "HW20": 132,
+                "HW2": 85,
+                "MW": 37
+            }
         },
         {
             "name": "Trier",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "339 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "23.857 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": null,
+                "HW2": 795,
+                "MW": 314
+            }
         },
         {
             "name": "Uckange",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "150 cm",
-            "xLast": "16.03.2025 03:15 Uhr",
             "catchmentArea": "10.762 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 634,
+                "HW20": 603,
+                "HW2": 421,
+                "MW": null
+            }
         },
         {
             "name": "Uffhofen",
             "riverName": "Wiesbach",
             "riverAreaName": "Nahe",
-            "yLast": "29 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "84,65 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 194,
+                "HW50": 181,
+                "HW20": 163,
+                "HW2": 86,
+                "MW": 27
+            }
         },
         {
             "name": "Untersulzbach",
             "riverName": "Lauter",
             "riverAreaName": "Glan",
-            "yLast": "113 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "215,31 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 378,
+                "HW50": 365,
+                "HW20": 342,
+                "HW2": 267,
+                "MW": 131
+            }
         },
         {
             "name": "Veldenz",
             "riverName": "Veldenzerbach",
             "riverAreaName": "Mosel",
-            "yLast": "18 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "27 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Walshausen",
             "riverName": "Felsalbe",
             "riverAreaName": "Mosel",
-            "yLast": "95 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "69,59 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 412,
+                "HW50": 391,
+                "HW20": 355,
+                "HW2": 254,
+                "MW": 104
+            }
         },
         {
             "name": "Waltenheim",
             "riverName": "Zorn",
             "riverAreaName": "Oberrhein",
-            "yLast": "91 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "688 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Wasserbillig",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "225 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Wasserliesch",
             "riverName": "Albach",
             "riverAreaName": "Mosel",
-            "yLast": "28 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "37,5 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 170,
+                "HW50": 151,
+                "HW20": 127,
+                "HW2": 68,
+                "MW": 29
+            }
         },
         {
             "name": "Weidenau",
             "riverName": "Sieg",
             "riverAreaName": "Sieg",
-            "yLast": "18 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "134 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 230,
+                "HW20": 217,
+                "HW2": 140,
+                "MW": 40
+            }
         },
         {
             "name": "Weidenau2",
             "riverName": "Ferndorfbach",
             "riverAreaName": "Sieg",
-            "yLast": "37 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "153 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": 265,
+                "HW20": 250,
+                "HW2": 180,
+                "MW": 60
+            }
         },
         {
             "name": "Weiler",
             "riverName": "Wieslauter",
             "riverAreaName": "Oberrhein",
-            "yLast": "48 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "278 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Weinähr",
             "riverName": "Gelbach",
             "riverAreaName": "Lahn",
-            "yLast": "36 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "215,3 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 261,
+                "HW50": 250,
+                "HW20": 233,
+                "HW2": 177,
+                "MW": 50
+            }
         },
         {
             "name": "Wernerseck",
             "riverName": "Nette",
             "riverAreaName": "Mittelrhein",
-            "yLast": "39 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "242 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 240,
+                "HW50": 224,
+                "HW20": 205,
+                "HW2": 128,
+                "MW": 39
+            }
         },
         {
             "name": "Wesel",
             "riverName": "Rhein",
             "riverAreaName": "Niederrhein",
-            "yLast": "285 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": null,
+                "HW2": 804,
+                "MW": 348
+            }
         },
         {
             "name": "Westerburg",
             "riverName": "Schafbach",
             "riverAreaName": "Lahn",
-            "yLast": "38 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "43,69 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 161,
+                "HW50": 147,
+                "HW20": 130,
+                "HW2": 94,
+                "MW": 44
+            }
         },
         {
             "name": "Wiersdorf",
             "riverName": "Prüm",
             "riverAreaName": "Mosel",
-            "yLast": "43 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "340,5 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 373,
+                "HW50": 332,
+                "HW20": 287,
+                "HW2": 198,
+                "MW": 65
+            }
         },
         {
             "name": "Wiesoppenheim 2",
             "riverName": "Eisbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "32 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "129,63 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 113,
+                "HW50": 111,
+                "HW20": 107,
+                "HW2": 90,
+                "MW": 32
+            }
         },
         {
             "name": "Wintrich",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "330 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "11.623 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Wittring",
             "riverName": "Saar",
             "riverAreaName": "Mosel",
-            "yLast": "143 cm",
-            "xLast": "16.03.2025 04:00 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Worms",
             "riverName": "Rhein",
             "riverAreaName": "Oberrhein",
-            "yLast": "117 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "68.827 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 797,
+                "HW50": 758,
+                "HW20": 716,
+                "HW2": 569,
+                "MW": 216
+            }
         },
         {
             "name": "Wörth 2",
             "riverName": "Heilbach",
             "riverAreaName": "Oberrhein",
-            "yLast": "55 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "67,56 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {}
         },
         {
             "name": "Würschhauser Mühle 2",
             "riverName": "Wallhalbe",
             "riverAreaName": "Mosel",
-            "yLast": "47 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "57,61 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 231,
+                "HW50": 223,
+                "HW20": 210,
+                "HW2": 155,
+                "MW": 62
+            }
         },
         {
             "name": "Zeltingen",
             "riverName": "Mosel",
             "riverAreaName": "Mosel",
-            "yLast": "352 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": null,
+                "HW2": 805,
+                "MW": 315
+            }
         },
         {
             "name": "Zerf",
             "riverName": "Großbach",
             "riverAreaName": "Mosel",
-            "yLast": "21 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "27,15 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 132,
+                "HW50": 123,
+                "HW20": 112,
+                "HW2": 84,
+                "MW": 25
+            }
         },
         {
             "name": "Zerwasmühle",
             "riverName": "Brohlbach",
             "riverAreaName": "Mittelrhein",
-            "yLast": "24 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "85,35 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": null,
+                "HW50": null,
+                "HW20": 101,
+                "HW2": 75,
+                "MW": 12
+            }
         },
         {
             "name": "Zollhaus",
             "riverName": "Aar",
             "riverAreaName": "Lahn",
-            "yLast": "48 cm",
-            "xLast": "16.03.2025 04:15 Uhr",
             "catchmentArea": "243,37 km²",
-            "waterLevelThreshhold": 100
+            "waterThresholds": {
+                "HW100": 237,
+                "HW50": 215,
+                "HW20": 188,
+                "HW2": 135,
+                "MW": 50
+            }
         }
-    ]
+    ],
+    "general_config": {
+        "poll_interval_seconds": 300
+    }
 }

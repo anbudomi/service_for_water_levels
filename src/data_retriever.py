@@ -11,13 +11,16 @@ def get_all_water_data(url, filter_names=None):
     Ruft alle Wasserstandsdaten von der Seite ab.
     Wenn filter_names (Liste) übergeben wird, werden nur die Zeilen erfasst,
     deren Name in filter_names enthalten ist.
+    
+    Es wird ein Tuple zurückgegeben mit:
+    (name, riverName, riverAreaName, yLast, xLast, catchmentArea, href)
     """
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")  # Headless-Modus: keine GUI öffnen
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     
     driver.get(url)
-    time.sleep(3)  # Kurze Wartezeit, bis die Seite initial geladen ist
+    time.sleep(1)  # Kurze Wartezeit, bis die Seite initial geladen ist
 
     water_data = []
 
@@ -35,7 +38,10 @@ def get_all_water_data(url, filter_names=None):
         for row in rows:
             try:
                 # 1. Name (mit Link)
-                name = row.find_element(By.CSS_SELECTOR, 'div[data-field="name"] a').text
+                name_elem = row.find_element(By.CSS_SELECTOR, 'div[data-field="name"] a')
+                name = name_elem.text
+                href = name_elem.get_attribute("href")  # Neuer Link als 7. Element
+                
                 # Falls ein Filter angegeben wurde, überspringe Zeilen, die nicht passen.
                 if filter_names and name not in filter_names:
                     continue
@@ -52,7 +58,8 @@ def get_all_water_data(url, filter_names=None):
                 # 6. catchmentArea (Einzugsgebiet)
                 catchment_area = row.find_element(By.CSS_SELECTOR, 'div[data-field="catchmentArea"]').text
 
-                water_data.append((name, river_name, river_area, y_last, x_last, catchment_area))
+                # Tuple mit 7 Elementen
+                water_data.append((name, river_name, river_area, y_last, x_last, catchment_area, href))
             except Exception as e:
                 print("Fehler beim Auslesen einer Zeile:", e)
 
@@ -86,5 +93,5 @@ if __name__ == "__main__":
     
     all_data = get_all_water_data(url, filter_names)
     for idx, data in enumerate(all_data, start=1):
-        name, river_name, river_area, y_last, x_last, catchment_area = data
-        print(f"({idx}) Gewässer: {name}, Fluss: {river_name}, Gebiet: {river_area}, Letzter Messwert: {y_last}, Zeit: {x_last}, Einzugsgebiet: {catchment_area}")
+        name, river_name, river_area, y_last, x_last, catchment_area, href = data
+        print(f"({idx}) Gewässer: {name}, Fluss: {river_name}, Gebiet: {river_area}, Letzter Messwert: {y_last}, Zeit: {x_last}, Einzugsgebiet: {catchment_area}, Link: {href}")
