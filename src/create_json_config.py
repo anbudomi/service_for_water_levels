@@ -10,7 +10,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 def get_station_thresholds(driver, station_href):
     """
-    Öffnet den Detailbereich eines Gewässers (station_href) mit dem bereits übergebenen driver,
+    Öffnet den Detailbereich eines Gewässers (station_href) mit dem übergebenen driver,
     hängt '#pegelkennwerte' an und extrahiert aus der Tabelle, die den Header 
     "Wasserstandskennwerte" enthält, die Schwellenwerte für:
       - HW 100
@@ -87,41 +87,55 @@ def get_station_thresholds(driver, station_href):
     
     return thresholds
 
-def create_json_config(url, filter_names=None, output_filename="water_level_config.json"):
+def create_json_config(url, filter_names=None, output_filename="water_level_config.json", collect_thresholds=True):
     """
     Ruft alle Stationen über get_all_water_data ab (erwartet 7-teilige Tupel) und ergänzt
-    für jeden Eintrag die Schwellenwerte aus der Detailseite.
-    Zusätzlich wird eine allgemeine Konfiguration (z. B. Abfrageintervall) gespeichert.
+    für jeden Eintrag (optional) die Schwellenwerte aus der Detailseite.
+    Zusätzlich wird eine allgemeine Konfiguration (z. B. Abfrageintervall, ausgewählte Stationen)
+    gespeichert.
+    
+    Mit dem Parameter collect_thresholds kann gesteuert werden, ob für jede Station
+    die zeitintensive Schwellenwert-Abfrage durchgeführt wird (True) oder nicht (False).
     """
-    # data wird als Liste von Tupeln erwartet:
-    # (name, riverName, riverAreaName, yLast, xLast, catchmentArea, href)
+    # data: Liste von Tupeln (name, riverName, riverAreaName, yLast, xLast, catchmentArea, href)
     data = get_all_water_data(url, filter_names)
     
-    # Initialisiere einen einzigen WebDriver, der für alle Detailseiten genutzt wird
-    options = webdriver.ChromeOptions()
-    options.add_argument("--headless")
-    options.add_experimental_option("excludeSwitches", ["enable-logging"])
-    options.add_argument("--log-level=3")
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    # Optional: Einmalig (und nur wenn collect_thresholds True ist) soll ein WebDriver erstellt werden,
+    # der für alle Detailseiten wiederverwendet wird.
+    if collect_thresholds:
+        options = webdriver.ChromeOptions()
+        options.add_argument("--headless")
+        options.add_experimental_option("excludeSwitches", ["enable-logging"])
+        options.add_argument("--log-level=3")
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    else:
+        driver = None
     
     water_stations = []
     for entry in data:
+        if collect_thresholds and driver is not None:
+            thresholds = get_station_thresholds(driver, entry[6])
+        else:
+            thresholds = {}  # Leeres Dict, wenn keine Schwellenwerte abgefragt werden sollen
         station = {
             "name": entry[0],
             "riverName": entry[1],
             "riverAreaName": entry[2],
             "catchmentArea": entry[5],
-            # Schwellenwerte extrahieren anhand des Links aus entry[6] mithilfe des wiederverwendeten drivers
-            "waterThresholds": get_station_thresholds(driver, entry[6])
+            "waterThresholds": thresholds
         }
         water_stations.append(station)
         print(f"Station '{entry[0]}' wurde verarbeitet.")
     
-    # Schließe den Driver, nachdem alle Stationen verarbeitet wurden
-    driver.quit()
+    if driver is not None:
+        driver.quit()
     
+    # Allgemeine Konfiguration: Hier kannst du weitere Parameter hinzufügen,
+    # wie polling-Intervall, Benachrichtigungseinstellungen etc.
     general_config = {
-        "poll_interval_seconds": 300
+        "poll_interval_seconds": 300,
+        "data_url": url,
+        "selected_stations": filter_names or []
     }
     
     json_config = {
@@ -138,5 +152,9 @@ def create_json_config(url, filter_names=None, output_filename="water_level_conf
     print(f"JSON-Konfiguration wurde in '{output_path}' gespeichert.")
 
 if __name__ == "__main__":
+    # Beispiel-Aufruf: Erstelle die initiale Konfiguration mit vollständiger Schwellenwertabfrage
     url = "https://hochwasser.rlp.de/pegelliste/land"
-    create_json_config(url, filter_names=None)
+    # Hier können die vom Nutzer gewünschten Stationen als Liste übergeben werden; 
+    # ist None, werden alle Stationen abgerufen.
+    selected_stations = []
+    create_json_config(url, filter_names=selected_stations, collect_thresholds=True)

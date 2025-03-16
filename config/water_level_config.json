@@ -2778,6 +2778,8 @@
         }
     ],
     "general_config": {
-        "poll_interval_seconds": 300
+        "poll_interval_seconds": 10,
+        "data_url": "https://hochwasser.rlp.de/pegelliste/land",
+        "selected_stations": ["Odenbach"]
     }
 }

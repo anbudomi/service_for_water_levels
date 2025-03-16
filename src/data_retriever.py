@@ -1,24 +1,18 @@
+# data_retriever.py
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
 
-def get_all_water_data(url, filter_names=None):
+def get_all_water_data(driver, url, filter_names=None):
     """
     Ruft alle Wasserstandsdaten von der Seite ab.
-    Wenn filter_names (Liste) übergeben wird, werden nur die Zeilen erfasst,
-    deren Name in filter_names enthalten ist.
+    filter_names (Liste) bewirkt, dass nur Zeilen verarbeitet werden, deren Name in dieser Liste enthalten ist.
     
-    Es wird ein Tuple zurückgegeben mit:
+    Erwartet einen bereits initialisierten WebDriver (driver).
+    Liefert eine Liste von Tupeln:
     (name, riverName, riverAreaName, yLast, xLast, catchmentArea, href)
     """
-    options = webdriver.ChromeOptions()
-    options.add_argument("--headless")  # Headless-Modus: keine GUI öffnen
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    
     driver.get(url)
     time.sleep(1)  # Kurze Wartezeit, bis die Seite initial geladen ist
 
@@ -58,14 +52,13 @@ def get_all_water_data(url, filter_names=None):
                 # 6. catchmentArea (Einzugsgebiet)
                 catchment_area = row.find_element(By.CSS_SELECTOR, 'div[data-field="catchmentArea"]').text
 
-                # Tuple mit 7 Elementen
+                # Tupel mit 7 Elementen
                 water_data.append((name, river_name, river_area, y_last, x_last, catchment_area, href))
             except Exception as e:
                 print("Fehler beim Auslesen einer Zeile:", e)
 
         # Versuche, den "Nächste Seite"-Button zu finden und zu klicken
         try:
-            # Suche das SVG-Icon und ermittle seinen klickbaren Vorfahren (<button> oder <a>)
             next_svg = WebDriverWait(driver, 5).until(
                 EC.presence_of_element_located((By.XPATH, "//*[@data-testid='KeyboardArrowRightIcon']"))
             )
@@ -74,14 +67,13 @@ def get_all_water_data(url, filter_names=None):
                 EC.element_to_be_clickable((By.XPATH, "//*[@data-testid='KeyboardArrowRightIcon']/ancestor::*[self::button or self::a]"))
             )
             next_button.click()
-            # Warte, bis sich der Inhalt (z. B. die erste Zeile) ändert
             WebDriverWait(driver, 10).until(EC.staleness_of(rows[0]))
         except Exception as e:
-            print("Pagination abgeschlossen oder Next-Button nicht mehr vorhanden:", e)
+            #print("Pagination abgeschlossen oder Next-Button nicht mehr vorhanden:", e)
             break
 
-    driver.quit()
     return water_data
+
 
 if __name__ == "__main__":
     url = "https://hochwasser.rlp.de/pegelliste/land"  # URL der ersten Seite
