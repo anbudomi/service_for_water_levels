@@ -1,5 +1,0 @@
-2025-03-16 09:46:47,141 INFO: ====== WebDriver manager ======
-2025-03-16 09:46:47,728 INFO: Get LATEST chromedriver version for google-chrome
-2025-03-16 09:46:47,779 INFO: Get LATEST chromedriver version for google-chrome
-2025-03-16 09:46:47,813 INFO: Driver [C:\Users\domet\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
-2025-03-16 09:46:52,757 INFO: Service wird beendet...
